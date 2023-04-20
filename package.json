@@ -1,0 +1,25 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heechem/Weather_app.git"
+  },
+  "author": "hichem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heechem/Weather_app/issues"
+  },
+  "homepage": "https://github.com/Heechem/Weather_app#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "eslint-config-wesbos": "^3.2.3"
+  }
+}
