@@ -1,1 +1,6 @@
-console.log('hello world');
+import { renderBody } from './body';
+import { weatherData } from './Weatherapi';
+
+renderBody();
+
+weatherData();
