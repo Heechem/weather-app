@@ -1,6 +1,7 @@
 import { renderBody } from './body';
-import { weatherData } from './Weatherapi';
+import { weatherData, displayWeather } from './Weatherapi';
+import { weatherForcast } from './Forccast';
 
 renderBody();
-
-weatherData();
+displayWeather();
+weatherForcast();
