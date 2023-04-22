@@ -1,6 +1,7 @@
 import { API_KEY } from './Weatherapi';
 // import { renderData } from './Weatherapi';
 
+// Fetch the data from the API
 export const weatherForcast = async function () {
   try {
     const res = await fetch(
@@ -36,16 +37,14 @@ export const weatherForcast = async function () {
   }
 };
 
-// get the weather forecast Data
+// get the weather forecast Data and dispaly them
 
-const displayforcast = async () => {
+export const displayforcast = async () => {
   const { forecastData, weather } = await weatherForcast();
   renderData(weather, forecastData);
 };
 
-displayforcast();
-
-// render the Data on
+// function that render the API data
 const renderData = function (x, y) {
   const container = document.querySelector('.img_container');
   let forecastHTML = '';
