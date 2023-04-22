@@ -3,5 +3,5 @@ import { weatherData, displayWeather } from './Weatherapi';
 import { weatherForcast } from './Forccast';
 
 renderBody();
-displayWeather();
+
 weatherForcast();

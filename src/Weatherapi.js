@@ -34,7 +34,7 @@ export const displayWeather = async () => {
 
 // display the data on the screen
 
-const renderData = function (x) {
+export const renderData = function (x) {
   const container = document.querySelector('.img_container');
   container.innerHTML = `
 

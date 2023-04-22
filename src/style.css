@@ -26,11 +26,11 @@ body {
 }
 
 img {
-  height: 30vh;
-  width: 30vw;
-  object-fit: cover;
+  height: 5vh;
+  width: 5vw;
+  object-fit: contain;
   border-radius: 20px;
-  margin: 2rem;
+  margin: 0.5rem;
   /* align-self: flex-start; */
 }
 
@@ -46,4 +46,14 @@ img {
 .container {
   margin: 2rem;
   padding: 2rem;
+}
+
+/* span {
+  align-self: center;
+} */
+
+.forecast-day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
