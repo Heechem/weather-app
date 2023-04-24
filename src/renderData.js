@@ -16,7 +16,7 @@ export const renderData = function (x, y) {
   container.innerHTML = `
   
     
-    <span class="city-name">${x.name}, ${x.country},${x.day} </span>
+    <span class="city-name">${x.name}<br> ${x.country}<br>${x.day} </span>
     <br><span>${x.condition} ${x.temperature_C}</span>
     <img
       src="${x.imgUrl}"

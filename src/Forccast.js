@@ -35,7 +35,7 @@ export const weatherForcast = async function (x) {
 
     return { forecastData, weather };
   } catch (err) {
-    console.log(err);
+    alert('Please enter a correct city name in English');
   }
 };
 
