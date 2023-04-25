@@ -20,6 +20,7 @@ const createForm = `
       autocomplete="off"
     />
     <button class="btn">submit</button>
+    <button class="temperature">C°/ F°</button>
   </div>`;
 
 //create the IMG container

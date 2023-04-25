@@ -7,7 +7,7 @@ export const weatherForcast = async function (x) {
   if (!x) alert('city is missing');
   try {
     const res = await fetch(
-      `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${x}&days=4&aqi=no`
+      `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${x}&days=4&aqi=no&lang=fr,`
     );
     const data = await res.json();
     const [...forecast] = Object.values(data.forecast);

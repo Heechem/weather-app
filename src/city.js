@@ -18,3 +18,20 @@ export const global = function () {
     });
   });
 };
+
+// change the temperature
+
+export const temp = function () {
+  window.addEventListener('load', () => {
+    const btnTemp = document.querySelector('.temperature');
+    btnTemp.addEventListener('click', (e) => {
+      e.preventDefault();
+      const tempSpan = document.querySelectorAll('.temp_span');
+      tempSpan.forEach((x) => {
+        x.classList.toggle('hidden');
+      });
+    });
+  });
+};
+
+temp();
