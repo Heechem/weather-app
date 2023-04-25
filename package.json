@@ -2,9 +2,10 @@
   "name": "weather-app",
   "version": "1.0.0",
   "description": "",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "parcel": "^2.8.3"
   },
   "dependencies": {
-    "eslint-config-wesbos": "^3.2.3"
+    "eslint-config-wesbos": "^3.2.3",
+    "gh-pages": "^5.0.0"
   }
 }

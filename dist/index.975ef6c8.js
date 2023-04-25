@@ -724,7 +724,7 @@ const displayforcast = async function(x) {
     (0, _renderData.renderData)(weather, forecastData);
 };
 
-},{"./Weatherapi":"6egSn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./city":"alcnd","./renderData":"7AByM"}],"alcnd":[function(require,module,exports) {
+},{"./Weatherapi":"6egSn","./city":"alcnd","./renderData":"7AByM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"alcnd":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "global", ()=>global);
